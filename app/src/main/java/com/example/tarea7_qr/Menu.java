@@ -50,6 +50,11 @@ public class Menu extends AppCompatActivity {
         }
     }
 
+
+    public void llamar(){
+        
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
