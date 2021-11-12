@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tarea7_QR</string>
+    <string name="imgV_0_des">Imagen de la Portada</string>
+    <string name="btn_guardar">Guardar</string>
+</resources>
