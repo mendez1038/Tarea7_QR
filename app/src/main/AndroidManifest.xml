@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tarea7_QR">
         <activity
-            android:name=".MainActivity"
+            android:name=".Menu"
             android:exported="false" />
         <activity
             android:name=".Portada"

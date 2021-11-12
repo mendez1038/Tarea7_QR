@@ -10,12 +10,12 @@ import com.google.zxing.integration.android.IntentResult;
 
 import java.text.CollationElementIterator;
 
-public class MainActivity extends AppCompatActivity {
+public class Menu extends AppCompatActivity {
 
     CollationElementIterator txtResultado = null;
     //Método para escanearQR
     public void escanearQR() {
-        IntentIntegrator integrador = new IntentIntegrator(MainActivity.this);
+        IntentIntegrator integrador = new IntentIntegrator(Menu.this);
         integrador.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE);
         //PRODUCT_CODE_TYPES)
         integrador.setPrompt("Escanear Código");
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Método para escanearBarras
     public void escanearBarras() {
-        IntentIntegrator integrador = new IntentIntegrator(MainActivity.this);
+        IntentIntegrator integrador = new IntentIntegrator(Menu.this);
         integrador.setDesiredBarcodeFormats(IntentIntegrator.CODE_128);
         //PRODUCT_CODE_TYPES)
         integrador.setPrompt("Escanear Código");
@@ -53,6 +53,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_menu);
     }
 }
